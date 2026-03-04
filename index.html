@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <title>..:: Space Develop ::..</title>
 </head>
+
 <body>
     <!-- Início Menu -->
-    <header id = "header">
-        <a id="logo" href="index.html"><img src="./img/55112264509-6f3b3b2f0b-k.avif" alt="Imagem do Arrascatea do mengão"></a>
+    <header id="header">
+        <a id="logo" href="index.html"><img src="./img/55112264509-6f3b3b2f0b-k.avif"
+                alt="Imagem do Arrascatea do mengão"></a>
         <nav id="nav">
-            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
                 <span id="hamburguer"></span>
             </button>
             <ul id="menu" role="menu">
@@ -23,5 +29,47 @@
         </nav>
     </header>
     <!-- Fim do Menu -->
+    <!-- Início Carousel -->
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="none">
+        <div class=" carousel-inner">
+            <div class="carousel-item-active" data-bs-interval="1000">
+                <img src="./img/55112264509-6f3b3b2f0b-k.avif" class="d-block w-100" alt="Banner 1">
+            </div>
+        </div>
+        <!--  -->
+        <div class=" carousel-inner">
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="./img/mascoteFlamengo.png" class="d-block w-100" alt="Banner 2">
+            </div>
+        </div>
+        <!--  -->
+        <div class=" carousel-inner">
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="./img/Escudo.png" class="d-block w-100" alt="Banner 3">
+            </div>
+        </div>
+        <!--  -->
+        <div class=" carousel-inner">
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="./img/55112264509-6f3b3b2f0b-k.avif" class="d-block w-100" alt="Banner 4">
+            </div>
+        </div>
+        <!--  -->
+        <div class=" carousel-inner">
+            <div class="carousel-item" data-bs-interval="700">
+                <img src="./img/55112264509-6f3b3b2f0b-k.avif" class="d-block w-100" alt="Banner 5">
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <!-- Fim Carousel -->
 </body>
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 </html>
