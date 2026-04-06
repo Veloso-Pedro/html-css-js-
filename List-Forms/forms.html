@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
     
 </head>
 <body>
-    
+    <h1>Formulário de apresentação</h1>
+    <form action="./Formularios/" method="get">
+        <p>Nome:</p>
+        <input type="text" placeholder=" Digite Nome e Sobrenome" pattern="[A-Za-zÀ-ÿ\s]+" title="Somente Letras são permitidos" required id="nome">
+        <p>Idade:</p>
+        <input type="number" placeholder="Digite sua idade" required id="idade">
+        <p>Passa-tempo</p>
+        <input type="text" placeholder="Digite seu Passa-tempo favorito" id="Passatempo">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
